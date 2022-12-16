@@ -1,0 +1,12 @@
+conda create -n axiokit
+conda activate axiokit
+conda install -c bccp pmesh
+#conda install python=3.6
+conda install -c conda-forge numpy scipy matplotlib astropy corrfunc mpi4py
+pip install mpsort joblib mcfit classylss six
+cd regpy01
+pip install .
+cd ../reglyman
+pip install .
+
+
